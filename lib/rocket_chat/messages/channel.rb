@@ -68,7 +68,7 @@ module RocketChat
       # * [String] topic A room's topic
       # * [Strong] type c (channel) or p (private group)
       def self.settable_attributes
-        %i[description join_code purpose read_only topic type]
+        %i[description join_code purpose read_only topic type custom_fields]
       end
     end
   end
